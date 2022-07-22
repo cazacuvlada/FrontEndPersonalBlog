@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Sacramento', cursive;
+
+    background-color:whitesmoke;
+}
+.HomeLoggo{
+    color:black;
+    position:relative;
+    left:100px;
+    top:50px;
+    font-size:40px;
+    text-decoration: none;
+}
+nav{
+    background-color: pink;
+}
+.About{
+    color:black;
+    position:relative;
+    left:1100px;
+    top:10px;
+    font-size:20px;
+    text-decoration: none;
+}
+.Contact{
+    color:black;
+    position:relative;
+    left:1200px;
+    top:-18px;
+    font-size:20px;
+    text-decoration: none;
+}
+.Subscribe{
+    color:black;
+    position:relative;
+    left:1300px;
+    top:-46px;
+    font-size:20px;
+    text-decoration: none;
+}

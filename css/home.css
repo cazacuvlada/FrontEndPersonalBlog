@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Sacramento', cursive;
+    background-color:whitesmoke;
+
+}
+nav{
+    background-color: pink;
+}
+.HomeLoggo{
+    color:black;
+    position:relative;
+    left:150px;
+    top:50px;
+    font-size:40px;
+    text-decoration: none;
+}
+.About{
+    color:black;
+    position:relative;
+    left:1130px;
+    top:10px;
+    font-size:23px;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px white;
+}
+.Contact{
+    color:black;
+    position:relative;
+    left:1230px;
+    top:-23px;
+    font-size:23px;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px white;
+}
+.Subscribe{
+    color:black;
+    position:relative;
+    left:1330px;
+    top:-55px;
+    font-size:23px;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px white;
+}
+.menu-bar{
+    background-color: lightpink;
+    text-align:center;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style:none;
+    color:black;
+}
+.menu-bar ul li{
+    width:120px;
+    margin:10px;
+    padding:10px;
+    font-size:25px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+   color:black;
+    text-shadow: 2px 2px 1px white;
+}
+ .menu-bar ul li a:hover {
+    background-color: floralwhite;
+    border-radius:4px;
+
+}
+.active a:hover{
+    background-color:floralwhite;
+    border-radius:4px;
+
+}
+.sub-menu-1{
+    display:none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display:block;
+    position:absolute;
+    background-color: pink;
+    margin-top:15px;
+    margin-left:-15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display:block;
+    margin:0;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width:150px;
+    padding:10px;
+    border-bottom:2px dotted floralwhite;
+    background:transparent;
+    border-radius:0;
+    text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:deeppink;
+}
