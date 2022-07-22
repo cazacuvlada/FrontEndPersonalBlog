@@ -105,3 +105,14 @@ nav{
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
     color:deeppink;
 }
+.sub-menu-2{
+    display:none;
+
+}
+.hover-me:hover .sub-menu-2{
+    position:absolute;
+    display:block;
+    margin-top:-10px;
+    margin-left:155px;
+    background-color: pink;
+}
